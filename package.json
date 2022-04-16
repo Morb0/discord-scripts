@@ -1,0 +1,11 @@
+{
+  "name": "discord-scripts",
+  "version": "1.0.0",
+  "description": "My Discord scripts",
+  "author": "Morbo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "16.0.0",
+    "got": "11.8.2"
+  }
+}
