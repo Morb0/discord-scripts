@@ -25,8 +25,9 @@ function getImageUrlByHours() {
 	const hours = new Date().getHours();
 	let imageIdx = hours;
 	while (imageIdx > IMAGE_URLS.length) {
-		imageIdx -= hours;
+		imageIdx -= IMAGE_URLS.length;
 	}
+	imageIdx -= 1;
 	console.log(`Picked image index - ${imageIdx}`);
 	return IMAGE_URLS[imageIdx];
 }
