@@ -18,4 +18,4 @@ jobs:
         run: npm install
 
       - name: Run script
-      - run: node avatar-changes.js
+        run: node avatar-changes.js
